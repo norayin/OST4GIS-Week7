@@ -31,4 +31,45 @@ p.main {
   position: absolute;
   background-color: #fff;
   z-index: 2000;
+  padding-left: 10px;
+  /* get rid of the dot before list */
+  list-style: none;
+  left: 500px;
+  top: 20px;
+}
+
+.legend li {
+  /*float: left;*/
+  margin-right: 10px;
+  margin-bottom: 10px;
+  z-index: 2000;
+}
+
+/* create a legend box */
+.legend span {
+  float: left;
+  width: 20px;
+  height: 12px;
+  margin: 3px;
+}
+
+/* assign lendent box colors */
+.legend .Mon {
+  background-color: #99b898;
+}
+
+.legend .Tue{
+  background-color: #fecea8;
+}
+
+.legend .Wed {
+  background-color: #ff847c;
+}
+
+.legend .Thur {
+  background-color: #e84a5f;
+}
+
+.legend .Fri {
+  background-color: #2a363b;
 }
